@@ -34,13 +34,7 @@ if ($ldapconn) {
 // try search
 if ($ldapbind) {
 
-//     set filter and org unit
-//    $base = "dc=HARTMED,dc=LAN";
-//    $filter="(&(objectClass=user)(distinguishedname=*OU=Users*)(givenName=*))";
-//    $filter="(&(objectClass=user)(givenName=*))";
-//    $filter="(|(sN=*$username*)(givenName=*$username*))";
-    
-    
+    // set filter and org unit
     $base = "ou=Users,ou=HARTMED - Accounts,dc=HARTMED,dc=LAN";
     $filter="(&(objectcategory=person)(objectclass=user)(!(userAccountControl:1.2.840.113556.1.4.803:=2))(|(sN=*$username*)(givenName=*$username*)))";
 
