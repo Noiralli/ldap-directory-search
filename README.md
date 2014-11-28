@@ -1,4 +1,4 @@
-ldap-directory-search
+LDAP Directory Search
 =====================
 
 PHP+LDAP Directory Search
