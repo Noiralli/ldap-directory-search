@@ -1,3 +1,5 @@
+<?PHP
+
 function sort_ldap_entries($e, $fld, $order) {
     
     for ($i = 0; $i < $e['count']; $i++) { 
