@@ -5,9 +5,9 @@ include 'function.php';
 $name = $_POST['user'];
 
 // user/host info
-$host = "ldap://10.110.1.10";
-$user = "web.site@hartmed.lan";
-$pass = "Internet$0";
+$host = "ldap://10.110.1.**";
+$user = "web.site@****.lan";
+$pass = "*************";
 
 $stack = array();
 
