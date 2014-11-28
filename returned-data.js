@@ -30,3 +30,18 @@ function searchDir(name) {
         $( "#searchcount" ).html(counter+" result(s)");
     });
 }
+
+function ifNA(ext) {
+    if (ext === 'N/A') {
+        return '';
+    }
+    else
+        return 'ext '+ext;
+}
+function ifEven(counter) {
+    if (!(counter & 1)) {
+        return 'blue';
+    }
+    else
+        return '';
+}
